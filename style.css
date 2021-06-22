@@ -151,3 +151,28 @@ padding: 4px;}
         }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .jt__text {
+    @media screen and (max-width: 900px) {
+
+      .playlist {
+       .jt__text {
+         text-align: center;
+         text-indent: 0%;
+         width: 100%;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    body {
+      background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+      background-size: 1500px 1500px;
+      animation: gradient 15s ease infinite;
+    }
+  }
+  
+}
