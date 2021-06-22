@@ -124,8 +124,12 @@ footer { padding: 40px 0;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-
-
+.playlist {
+  display: grid;
+  grid-gap: 4px 4px;
+   grid-template-columns :repeat(4, 1fr);
+   }
+}
 
 .playlist
 {display: flex;
